@@ -4,6 +4,13 @@ You can use the [editor on GitHub](https://github.com/jack1012/jack1012.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+
+<a href="{{ site.baseurl }}{{ post.url }}">
+Read More ...
+</a>
+
+<!-- more -->
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -28,15 +35,4 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-<span class="post-date">{{ post.date | date_to_string }}
-</span>
-{{ post.excerpt }}
-
-<a href="{{ site.baseurl }}{{ post.url }}">
-Read More ...
-</a>
-
-<!-- more -->
-
-just test 2020/3/23
 just test 2020/3/23
