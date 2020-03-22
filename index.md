@@ -30,5 +30,9 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 <span class="post-date">{{ post.date | date_to_string }}
 </span>
-{{ post.content }} 
+{{ post.excerpt }}
+
+<a href="{{ site.baseurl }}{{ post.url }}">
+Read More ...
+</a>
 
