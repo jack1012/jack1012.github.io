@@ -7,3 +7,5 @@ author:
   email: jack1012@gmail.com
   github: jack1012
 theme: jekyll-theme-midnight
+
+excerpt_separator:  '<!-- more -->'
