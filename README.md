@@ -114,5 +114,4 @@ Edit `404.md`
 CC0 1.0 Universal
 
 # Others
-
-## https://github.com/topics/jekyll-plugin
+https://github.com/topics/jekyll-plugin
