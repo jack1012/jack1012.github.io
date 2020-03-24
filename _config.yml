@@ -26,9 +26,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-
+  - jekyll-archives
+  
 # Custom variables
 owner : "Jack1012"
 year : "2020"
-
 google_analytics: "UA-161753790-1"
