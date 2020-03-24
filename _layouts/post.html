@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article>
-  <h2>{{ page.title }} with '{{ page.type }}' </h2>
+  <h2>{{ page.title }} with '{{ page.tags }}' </h2>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
   {{ content }}
 </article>
