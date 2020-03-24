@@ -1,6 +1,9 @@
 ---
 title: Yet Another Sample Page
 published: true
+layout      : post
+categories  : articles  
+tags        : [sample]
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
