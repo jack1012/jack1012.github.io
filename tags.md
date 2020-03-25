@@ -2,6 +2,7 @@
 layout: page
 title: Tags
 ---
+<section>
+  {% include archive.html %}
 
-{% include archive.html %}
-
+</section>
