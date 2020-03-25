@@ -11,4 +11,7 @@
   
 </head>
 
-
+  {% if site.tags != "" %}
+    {% include collecttags.html %}
+    {% site.tags %}
+    {% endif %}
