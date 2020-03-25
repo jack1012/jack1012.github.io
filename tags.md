@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Taglist
+title: Tags
 ---
-<section>
+
 {% include archive.html %}
-</section>
+
