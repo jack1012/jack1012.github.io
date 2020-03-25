@@ -1,7 +1,8 @@
 ---
 title: Another Sample Page
 published: true
-tags: []
+tags: [simple]
+
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
