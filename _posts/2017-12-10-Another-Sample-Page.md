@@ -1,7 +1,7 @@
 ---
 title: Another Sample Page
 published: true
-tags: [simple]
+tags: [sample]
 
 ---
 
