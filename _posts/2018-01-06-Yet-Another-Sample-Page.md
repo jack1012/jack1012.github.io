@@ -3,7 +3,7 @@ title: Yet Another Sample Page
 published: true
 layout      : post
 categories  : articles  
-tags        : [sample test]
+tags        : [sample, test]
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
