@@ -1,9 +1,5 @@
 ---
-layout: page
-title: Tags
+  layout: tagpage
+  title: "Tag: sample"
+
 ---
-
-<section>
-  {% include archive.html %}
-
-</section>
