@@ -8,7 +8,10 @@ layout: default
       {% capture tag_name %}{{ tag }}{% endcapture %}
           <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
             {% endfor %}
-            ]</span></h1>
+            ]</span>
+  
+  [<a href="{{ "/_post/" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">Edit</h2></a>]
+  </h1>
   
   <h2>{{ page.title }} </h2>
 
