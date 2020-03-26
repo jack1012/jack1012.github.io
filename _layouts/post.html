@@ -14,7 +14,7 @@ layout: default
   </h1>
   
   <h2>{{ page.title }}</h2>
-  <h3>{{ site.posts }}</h3>
+  <h3>post :{{ site.posts }}</h3>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
   {{ content }}
   <br>tag: '{{ page.tags }}' 
