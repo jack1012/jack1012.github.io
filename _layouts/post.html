@@ -10,11 +10,12 @@ layout: default
             {% endfor %}
             ]</span>
   
-  [<a href="https://github.com/jack1012/jack1012.github.io/tree/master/_posts/{{ post.url }}" target="_blank" > Edit3 {{ page.name }} </a>]
+  [<a href="https://github.com/jack1012/jack1012.github.io/tree/master/_posts/{{ post.url }}" target="_blank" > Edit </a>]
   </h1>
   
-  <h2>{{ page.title }} {{ post.url }} </h2>
-
+  <h2>{{ page.title }}</h2>
+  <h2>name :{{ page.name }}</h2>
+  
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
   {{ content }}
   <br>tag: '{{ page.tags }}' 
