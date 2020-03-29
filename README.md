@@ -13,6 +13,11 @@ Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker
 5. RSS (`https://base-url/atom`)
 6. Sitemap (`https://base-url/sitemap`)
 7. Google Analytics (optional)
+addtion
+8. Math display
+9. Tags Page
+10. Categories Page
+
 
 ## Usage
 
@@ -98,6 +103,10 @@ Meta tags, blog title display, and additional CSS: Edit `_includes/head.html`
 Index page layout: Edit `_layouts/default.html`
 
 Post layout: Edit `_layouts/post.html`
+
+Tags latout: Edit `_layouts/Tagpag.html` and add `tag/[tag_name].md`
+
+Category latout: Edit `_layouts/Categorypag.html` and add `category/[category_name].md`
 
 **CSS**
 
