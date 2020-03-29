@@ -1,12 +1,12 @@
 <h2>Categories list</h2>
-{% capture temptags %}
-  {% for Category in site.Categories %}
-      {{ Category[1].size | plus: 1000 }}#{{ Category[0] }}#{{ Category[1].size }}
+{% capture tempcategories %}
+  {% for category in site.categories %}
+      {{ category[1].size | plus: 1000 }}#{{ category[0] }}#{{ category[1].size }}
         {% endfor %}
         {% endcapture %}
-        {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
-        {% for temptag in sortedtemptags %}
-          {% assign tagitems = temptag | split: '#' %}
-            {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-              <a href="/Category/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+        {% assign sortedtempcategories = tempcategories | split:' ' | sort | reverse %}
+        {% for tempcategories in sortedtempcategories %}
+          {% assign categoryitems = tempcategory | split: '#' %}
+            {% capture categoryname %}{{ categoryitems[1] }}{% endcapture %}
+              <a href="/category/{{ categoryname }}"><code class="highligher-rouge"><nobr>{{ categoryname }}</nobr></code></a>
               {% endfor %}
