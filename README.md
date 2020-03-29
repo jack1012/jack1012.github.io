@@ -12,7 +12,7 @@ Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker
 4. About Page
 5. RSS (`https://base-url/atom`)
 6. Sitemap (`https://base-url/sitemap`)
-7. Google Analytics (optional)
+7. Google Analytics (optional)  
 *Add by jack
 8. Math display
 9. Tags Page
