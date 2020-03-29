@@ -13,7 +13,7 @@ layout: default
             ]</span>
     
     <span>[
-  {% for tag in page.categories %}
+  {% for category in page.categories %}
       {% capture category_name %}{{ category }}{% endcapture %}
           <a href="/category/{{ category_name }}"><code class="highligher-rouge"><nobr>{{ category_name }}</nobr></code>&nbsp;</a>
             {% endfor %}
