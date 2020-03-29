@@ -5,7 +5,7 @@
         {% endfor %}
         {% endcapture %}
         {% assign sortedtempcategories = tempcategories | split:' ' | sort | reverse %}
-        {% for tempcategories in sortedtempcategories %}
+        {% for tempcategory in sortedtempcategories %}
           {% assign categoryitems = tempcategory | split: '#' %}
             {% capture categoryname %}{{ categoryitems[1] }}{% endcapture %}
               <a href="/category/{{ categoryname }}"><code class="highligher-rouge"><nobr>{{ categoryname }}</nobr></code></a>
