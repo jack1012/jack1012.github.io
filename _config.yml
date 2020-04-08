@@ -34,3 +34,5 @@ plugins:
 owner : "Jack1012"
 year : "2020"
 google_analytics:
+
+theme: jekyll-theme-hacker
