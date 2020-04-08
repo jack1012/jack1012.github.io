@@ -5,14 +5,14 @@ layout: default
 <article>
   <h1> 
     
-    <span>[
+    <span>Tags：[
   {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
           <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
             {% endfor %}
             ]</span>
     
-    <span>[
+    <span>Categories：[
   {% for category in page.categories %}
       {% capture category_name %}{{ category }}{% endcapture %}
           <a href="/category/{{ category_name }}"><code class="highligher-rouge"><nobr>{{ category_name }}</nobr></code>&nbsp;</a>
@@ -24,7 +24,7 @@ layout: default
   
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
   {{ content }}
-  <br>tag: '{{ page.tags }}' 
+  
   
     
 </article>
