@@ -3,8 +3,7 @@ layout: default
 ---
 
 <article>
-  <h1> 
-    
+      
     <span>Tags：[
   {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -20,7 +19,7 @@ layout: default
             ]</span>
   
   [<a href="https://github.com/jack1012/jack1012.github.io/tree/master/_posts/" target="_blank" > Edit </a>]
-  </h1>
+ 
   
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
   {{ content }}
